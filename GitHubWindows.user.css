@@ -20,6 +20,7 @@
     --color-window: rgb(255, 255, 255);
     --color-active-caption-text: rgb(255, 255, 255);
     --color-active-caption: rgb(0, 0, 128);
+    --color-active-caption-gradient: rgb(0, 0, 128);
     --color-info-background: rgb(255, 255, 192);
     --color-highlight-text: rgb(255, 255, 255);
     --color-highlight: rgb(0, 0, 128);
@@ -118,7 +119,7 @@
   }
 
   .Header {
-    background: var(--color-active-caption) !important;
+    background: linear-gradient(to right, var(--color-active-caption), var(--color-active-caption-gradient)) !important;
     font: inherit !important;
   }
   .HeaderNavlink {
@@ -403,7 +404,7 @@
   }
 
   .select-menu-header {
-    background: var(--color-active-caption) !important;
+    background: linear-gradient(to right, var(--color-active-caption), var(--color-active-caption-gradient)) !important;
     padding: 4px 6px !important;
   }
   .select-menu-title {
