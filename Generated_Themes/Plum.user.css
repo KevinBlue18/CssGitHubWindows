@@ -11,21 +11,21 @@
 @-moz-document domain("github.com") {
   :root {
     --color-button-text: rgb(0, 0, 0);
-    --color-button-face: rgb(212, 208, 200);
-    --color-button-highlight: rgb(255, 255, 255);
-    --color-button-shadow: rgb(128, 128, 128);
-    --color-button-shadow-dark: rgb(64, 64, 64);
+    --color-button-face: rgb(168, 152, 144);
+    --color-button-highlight: rgb(216, 208, 200);
+    --color-button-shadow: rgb(120, 96, 88);
+    --color-button-shadow-dark: rgb(0, 0, 0);
     --color-button-checked: rgb(223, 223, 223);
     --color-window-text: rgb(0, 0, 0);
-    --color-window: rgb(255, 255, 255);
+    --color-window: rgb(216, 208, 200);
     --color-active-caption-text: rgb(255, 255, 255);
-    --color-active-caption: rgb(10, 36, 106);
-    --color-active-caption-gradient: rgb(166, 202, 240);
-    --color-info-background: rgb(255, 255, 225);
-    --color-highlight-text: rgb(255, 255, 255);
-    --color-highlight: rgb(10, 36, 106);
-    --color-gray-text: rgb(128, 128, 128);
-    --color-link: rgb(0, 0, 128);
+    --color-active-caption: rgb(72, 64, 96);
+    --color-active-caption-gradient: rgb(160, 132, 184);
+    --color-info-background: rgb(213, 204, 200);
+    --color-highlight-text: rgb(216, 208, 200);
+    --color-highlight: rgb(0, 128, 128);
+    --color-gray-text: rgb(120, 96, 88);
+    --color-link: rgb(72, 64, 96);
     --color-hover: rgb(223, 223, 255);
 
     --font-family: Tahoma, Arial, Liberation Sans, sans-serif;
