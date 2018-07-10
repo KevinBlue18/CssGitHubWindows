@@ -1,0 +1,3 @@
+Python program that (crudely) extracts theming information from
+the registry.  This has only been ran on ReactOS, may or may not work
+on MS Windows itself.
