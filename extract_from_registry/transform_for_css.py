@@ -48,6 +48,12 @@ for section in origcolors.sections():
     themes[section] = {
         "color_button_checked": "223, 223, 223",
         "color_hover": "223, 223, 255",
+        "color_gray_text_dark": ", ".join(
+            [
+                str(int(i) // 2)
+                for i in origcolors[section]["GrayText"].split(", ")
+            ]
+        ),
     }
     themes[section].update(fonts)
 
