@@ -55,10 +55,11 @@ for section in origcolors.sections():
             ]
         ),
     }
-    themes[section].update(fonts)
 
     for oldkey, newkey in items.items():
         themes[section][newkey] = origcolors[section][oldkey]
+
+    themes[section].update(fonts)
 
 with open("Themes.ini", "w") as cfgfile:
     themes.write(cfgfile)
